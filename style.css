@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: azure;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 100px 0 100px;
+}
+
+header {
+    background-image: url(Assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.logo {
+    font-size: 38px;
+    font-weight: bold;
+    color: #4f46e5;
+}
+
+.signup-btn,
+.focused-btn,.preview-btn {
+    background-color: #4f46e5;
+    color: #fff;
+    font-size: 17px;
+    border: none;
+    padding: 12px 20px;
+    margin-top: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.signup-btn:hover {
+    background-color: #fcdc09;
+}
+
+.banner {
+    height: calc(85vh);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banner-content h1 {
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #1f1f1f;
+}
+
+.focused-btn {
+    padding: 12px 30px;
+}
+
+.focused-btn:hover {
+    background-color: #fcdc09;
+}
+
+/* Action Section code */
+.action {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 100px 15%;
+    flex-wrap: wrap;
+}
+
+.action-left h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.action-left p {
+    font-size: 22px;
+    color: #6b7280;
+    margin-bottom: 20px;
+}
+
+.preview-btn {
+    padding: 14px 32px;
+    font-size: 17px;
+}
+
+.preview-btn:hover {
+    background-color: #3730a3;
+}
+
+.action-right img {
+    width: 400px;
+    height: 280px;
+    border-radius: 50px;
+}
+
+/* Productive  Section */
+.productive-section {
+  background-color: #eaeaff;
+  padding: 60px 20px;
+  text-align: center;
+  border-radius: 20px;
+  max-width: 1000px;
+  margin: 60px auto;
+}
+
+.productive-section h2 {
+  font-size: 34px;
+  font-weight: bold;
+  color: #1f1f1f;
+  margin-bottom: 40px;
+}
+
+.data {
+  display: flex;
+  justify-content: center;
+  gap: 180px;
+  flex-wrap: wrap;
+}
+
+.data-item h3 {
+  font-size: 60px;
+  font-weight: bold;
+  color: #4f46e5;
+}
+
+.data-item p {
+  font-size: 18px;
+  color: #6b7280;
+  margin-top: 6px;
+}
