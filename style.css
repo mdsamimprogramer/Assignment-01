@@ -13,7 +13,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 60px 100px 0 100px;
+    padding: 18px 100px 0 100px;
 }
 
 header {
@@ -23,10 +23,9 @@ header {
     background-size: cover;
 }
 
-.logo {
-    font-size: 38px;
-    font-weight: bold;
-    color: #4f46e5;
+nav img {
+    width: 180px;
+    margin-top: 20px;
 }
 
 .signup-btn,
@@ -36,9 +35,9 @@ header {
     background-color: #4f46e5;
     color: #fff;
     font-size: 17px;
+    margin-top: -10px;
     border: none;
     padding: 12px 20px;
-    margin-top: 10px;
     border-radius: 8px;
     font-weight: bold;
     cursor: pointer;
@@ -349,15 +348,12 @@ form button:hover {
 footer {
     background-color: #fefefe;
     text-align: center;
-    padding: 180px 20px;
+    padding: 100px 20px;
     border-top: 1px solid #94b4e8;
 }
 
-footer h3 {
-    font-size: 62px;
-    font-weight: bold;
-    margin-bottom: 20px;
-    color: #0015ff;
+footer img {
+    width: 300px;
 }
 
 footer p {
